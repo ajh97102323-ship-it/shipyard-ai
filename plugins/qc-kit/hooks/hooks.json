@@ -2,11 +2,13 @@
   "hooks": {
     "PreToolUse": [
       {
-        "matcher": "Write|Edit|NotebookEdit|Bash|PowerShell",
+        "matcher": "Edit|Write|MultiEdit|NotebookEdit|Bash|PowerShell",
         "hooks": [
           {
             "type": "command",
-            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/block-data-edit.js\""
+            "command": "node",
+            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/protect-data.js"],
+            "onFailure": "block"
           }
         ]
       }
