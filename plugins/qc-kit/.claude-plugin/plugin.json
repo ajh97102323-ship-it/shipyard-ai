@@ -1,0 +1,6 @@
+{
+  "name": "qc-kit",
+  "version": "0.1.0",
+  "description": "주간 품질 검사 기록 감사 에이전트와 data/ 원본 보호 훅",
+  "author": { "name": "JH" }
+}

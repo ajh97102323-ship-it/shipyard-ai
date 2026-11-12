@@ -1,0 +1,11 @@
+{
+  "name": "shipyard-ai",
+  "owner": { "name": "JH" },
+  "plugins": [
+    {
+      "name": "qc-kit",
+      "source": "./plugins/qc-kit",
+      "description": "주간 품질 검사 기록 감사 에이전트와 data/ 원본 보호 훅"
+    }
+  ]
+}
