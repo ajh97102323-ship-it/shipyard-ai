@@ -1,0 +1,15 @@
+{
+  "name": "qna-helper",
+  "version": "1.0.0",
+  "description": "사내 기술 QnA 게시판을 찾아 근거와 링크를 붙여 답하는 도우미",
+  "author": {
+    "name": "사내 AX팀"
+  },
+  "userConfig": {
+    "qna_api": {
+      "type": "string",
+      "title": "게시판 주소",
+      "description": "사내 QnA 게시판 주소. 예: http://localhost:3001 (실습에서는 강사가 알려 준 주소)"
+    }
+  }
+}

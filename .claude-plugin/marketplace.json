@@ -6,6 +6,11 @@
       "name": "qc-kit",
       "source": "./plugins/qc-kit",
       "description": "주간 품질 검사 기록 감사 에이전트와 data/ 원본 보호 훅"
+    },
+    {
+      "name": "qna-helper",
+      "source": "./plugins/qna-helper",
+      "description": "사내 기술 QnA 게시판을 찾아 근거와 링크를 붙여 답하는 도우미"
     }
   ]
 }
